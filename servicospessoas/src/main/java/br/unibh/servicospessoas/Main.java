@@ -1,5 +1,5 @@
 
-package br.unibh.servicopessoas;
+package br.unibh.servicospessoas;
 
 import com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory;
 import com.sun.jersey.api.core.PackagesResourceConfig;
@@ -32,7 +32,7 @@ public class Main {
     public static final URI BASE_URI = getBaseURI();
     
     protected static HttpServer startServer() throws IOException {
-        ResourceConfig resourceConfig = new PackagesResourceConfig("br.unibh.servicopessoas");
+        ResourceConfig resourceConfig = new PackagesResourceConfig("br.unibh.servicospessoas");
 
         System.out.println("Starting grizzly2...");
         return GrizzlyServerFactory.createHttpServer(BASE_URI, resourceConfig);

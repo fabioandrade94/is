@@ -1,5 +1,5 @@
 
-package br.unibh.servicopessoas;
+package br.unibh.servicospessoas;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 
